@@ -1,0 +1,136 @@
+body {
+margin: 0;	
+}
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.header{
+background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/master/sources/img/football_767.jpg");	
+}
+
+.header, .footer{
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  }
+
+.header{
+  padding-bottom: 90px;
+}
+
+.header::after, .footer::after {
+  content: "";
+  background-color: #1c193a;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+.header-box, .footer-box{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.surface_logo_text{
+	padding-top: 33px;
+	padding-bottom: 135px;
+	width: 136px;
+	fill: #ffffff;
+}
+
+.header_text, .h1_text{
+	display: block;
+	color: #ffffff;
+	font-family: 'OpenSans-Bold', sans-serif;
+	text-transform: uppercase;
+	font-size: 28px;
+}
+
+
+.h1_text{
+	margin-left: 44px;
+	margin-top: 30px;
+	margin-bottom: 90px;
+}
+
+.link_group{
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 15px;
+	width: 280px;
+	height: 35px;
+}
+
+.logo{
+	height: 25px;
+    width: 24px;
+	fill: #ffffff;
+}
+
+.apple_link, .google_link{
+  display: flex;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #5e42b0;
+  border-radius: 25px;
+	margin-bottom: 15px;
+	width: 280px;
+	height: 35px;
+}
+
+.apple_link_form, .google_link_form{
+   display: flex;
+   width: 110px;
+   margin-left: auto;
+   margin-right: auto;
+   align-items: center;
+}
+
+.link_text_apple, .link_text_google {
+	display: flex;
+	flex-direction: column;
+	font-family: 'OpenSans-Regular';
+	font-size: 8px;
+	font-weight: 400;
+	padding-left: 7px;
+}
+
+.link_text_bold{
+  font-family: 'OpenSans-Bold';
+  font-size: 8px;
+  font-weight: 700;
+	
+}
+
+.footer{
+background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/master/sources/img/game_767.jpg");	
+}
+
+	
