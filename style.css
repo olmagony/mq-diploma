@@ -64,7 +64,7 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
 	fill: #ffffff;
 }
 
-.header_text, .h1_text{
+.header_text, .h1_text {
 	display: block;
 	color: #ffffff;
 	font-family: 'OpenSans-Bold', sans-serif;
@@ -133,25 +133,57 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
 background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/master/sources/img/game_767.jpg");	
 }
 
+
 .icon{
 	padding-top: 100px;
 	margin-bottom: 57px;
 }
 
-.icon_form{
+.icon_form {
 	width: 72px;
 	height: 72px;
 	margin-right: auto;
 	margin-left: auto;
 	background-color: #5e42b0;
+	border-radius: 15px;
+	background-image: linear-gradient(0deg, #50329c 0%, #5e3db3 51%, #7751db 100%);
+}
+.logo_artwork{
+	display: block;
+	height: 50px;
+	width: 60px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 11px;
+	fill: #ffffff;
 }
 
+.footer_text{
+	display: flex;
+	flex-direction: column;
+	color: #ffffff;
+	font-family: 'OpenSans-Bold', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 32px;
+    letter-spacing: 1.3px;
+}
+
+.h3_text{
+	font-family: 'OpenSans-Regular';
+	font-weight: 400;
+	font-size: 14px;
+    letter-spacing: 1px;
+    color: #9b8ec1;
+	padding-bottom: 78px;
+
+}
+
+
 .surface_logo_text_footer{
-	padding-top: 83px;
+	padding-top: 68px;
 	padding-bottom: 10px;
 	width: 136px;
 	fill: #ffffff;
 }
-	
-
 	
