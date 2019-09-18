@@ -16,17 +16,16 @@ margin: 0;
   font-style: normal;
 }
 
-.header{
-background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/master/sources/img/football_767.jpg");	
-}
-
 .header, .footer{
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 100%;
   }
+
+.header{
+background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/master/sources/img/football_767.jpg");
+}
 
 .header{
   padding-bottom: 90px;
@@ -44,7 +43,7 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
 }
 
 
-.header-box, .footer-box{
+.header-box, .footer-box {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -129,6 +128,52 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
 	
 }
 
+.page{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.title_post{
+  font-family: 'OpenSans-Bold';
+  font-size: 50px;
+  line-height: 60px;
+  color: #e7e7e7;
+  text-transform: uppercase;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.img_post{
+ text-align: center;
+}
+
+
+.h3{
+  font-family: 'OpenSans-Bold';
+  text-transform: uppercase;
+  font-size: 23px;
+  letter-spacing: 1px;
+  line-height: 34px;
+  color: #c1c1c1;
+}
+
+.h3::before{
+  display: block;
+  background-color: #5e42b0;
+  width: 15px;
+  height: 4px;
+  border-radius: 1px;
+  content: "01";
+  font-size: 14px;
+  color: #000000;
+}
+
+
+
 .footer{
 background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/master/sources/img/game_767.jpg");	
 }
@@ -158,7 +203,7 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
 	fill: #ffffff;
 }
 
-.footer_text{
+.footer_texts{
 	display: flex;
 	flex-direction: column;
 	color: #ffffff;
@@ -169,7 +214,7 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
     letter-spacing: 1.3px;
 }
 
-.h3_text{
+.footer_text{
 	font-family: 'OpenSans-Regular';
 	font-weight: 400;
 	font-size: 14px;
@@ -186,5 +231,4 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
 	width: 136px;
 	fill: #ffffff;
 }
-
 	
