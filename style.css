@@ -71,7 +71,6 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
 	font-size: 28px;
 }
 
-
 .h1_text{
 	margin-left: 44px;
 	margin-top: 30px;
@@ -128,7 +127,7 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
 	
 }
 
-.page{
+.post-box{
   display: flex;
   flex-direction: column;
   margin-left: auto;
@@ -137,41 +136,141 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
   padding-right: 20px;
 }
 
+.post_athlets::before {
+    content: "";
+    position: absolute;
+    background-image: url(https://raw.githubusercontent.com/olmagony/mq-diploma/master/sources/img/footballer_192.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center 80px;
+}
+		
 .title_post{
   font-family: 'OpenSans-Bold';
   font-size: 50px;
-  line-height: 60px;
   color: #e7e7e7;
   text-transform: uppercase;
-  margin-top: 25px;
-  margin-bottom: 20px;
+  line-height: 1;
+	margin-top: 20px;
+  margin-left: 6.25%;
+  margin-right: 6.25%;
+  padding-bottom: 265px;
 }
 
-.img_post{
- text-align: center;
+.list_post {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
+.list-item {
+    padding: 59px 6.25% 53px 6.25%;
+}
 
-.h3{
+.list_title{
   font-family: 'OpenSans-Bold';
   text-transform: uppercase;
   font-size: 23px;
   letter-spacing: 1px;
   line-height: 34px;
   color: #c1c1c1;
+	
+  position: relative;
+  margin-left: 25px;
+  margin-bottom: 29px;
 }
 
-.h3::before{
-  display: block;
-  background-color: #5e42b0;
-  width: 15px;
-  height: 4px;
-  border-radius: 1px;
-  content: "01";
-  font-size: 14px;
-  color: #000000;
+ .list_title::before {
+    content: "01";
+    position: absolute;
+    left: -25px;
+	 top: -3px;
+    font-size: 14px;
+    font-family: 'OpenSans-Bold';
+    color: #000000;
+}
+ .list-title::after {
+    content: "";
+    position: absolute;
+    left: -25px;
+    top: 23px;
+    width: 15px;
+    height: 4px;
+    border-radius: 1px;
+    background-color: #5e42b0;
 }
 
+p{
+font-size: 15px;
+letter-spacing: 1px;
+line-height: 18px;
+color: #000000;
+font-family: 'OpenSans-Regular';
+font-weight: 400;
+}
+
+.visually_hidden {
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute;
+}
+
+.list-styles-reset {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.list-styles-reset {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.to-do-content {
+    padding: 33px 6.25% 80px 6.25%;
+}
+
+
+.to-do-title {
+    position: relative;
+	font-family: 'OpenSans-Bold'
+    font-size: 28px;
+    letter-spacing: 1px;
+    line-height: 34px;
+    color: #e7e7e7;
+	text-transform: uppercase;
+	font-weight: 700;
+    margin-bottom: 23px;
+}
+.to-do-title::before {
+    content: "01";
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: -95px;
+    font-size: 14px;
+    line-height: 70px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #5e42b0;
+}
+
+.to-do-title::after {
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: 27px;
+    width: 17px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #8f7bc8;
+}
 
 
 .footer{
