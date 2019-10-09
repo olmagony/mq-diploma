@@ -151,6 +151,7 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
 }
 
 .post_athlets_img{
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -160,10 +161,12 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
+	counter-reset: list;
 }
 
 .list-item {
     padding: 59px 6.25% 53px 6.25%;
+	counter-increment: list;
 }
 
 .list_title{
@@ -179,8 +182,9 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
   margin-bottom: 29px;
 }
 
+
  .list_title::before {
-    content: "01";
+	content: "0" counter(list);
     position: absolute;
     left: -25px;
 	 top: -3px;
