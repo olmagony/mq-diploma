@@ -127,7 +127,7 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
 	
 }
 
-.post-box{
+.post_box{
   display: flex;
   flex-direction: column;
   margin-left: auto;
@@ -164,7 +164,7 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
 	counter-reset: list;
 }
 
-.list-item {
+.list_item {
     padding: 59px 6.25% 53px 6.25%;
 	counter-increment: list;
 }
@@ -192,7 +192,7 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
     font-family: 'OpenSans-Bold';
     color: #000000;
 }
- .list-title::after {
+ .list_title::after {
     content: "";
     position: absolute;
     left: -25px;
@@ -202,6 +202,19 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
     border-radius: 1px;
     background-color: #5e42b0;
 }
+
+.list_item:first-child{
+	background-color: #fafafa;
+}
+
+.list_item:nth-child(2){
+	background-color: #f5f4f9;
+}
+
+.list_item:nth-child(3){
+	background-color: #5e42b0;
+}
+
 
 p{
 font-size: 15px;
@@ -219,26 +232,20 @@ font-weight: 400;
     position: absolute;
 }
 
-.list-styles-reset {
+.list_styles_reset {
     list-style-type: none;
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
 }
 
-.list-styles-reset {
-    list-style-type: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-}
 
-.to-do-content {
+.to_do_content {
     padding: 33px 6.25% 80px 6.25%;
+	counter-reset: list;
 }
 
-
-.to-do-title {
+.to_do_title {
     position: relative;
 	font-family: 'OpenSans-Bold';
     font-size: 28px;
@@ -248,9 +255,10 @@ font-weight: 400;
 	text-transform: uppercase;
 	font-weight: 700;
     margin-bottom: 23px;
+	counter-increment: list;
 }
-.to-do-title::before {
-    content: "01";
+
+.to_do_title::before {
     position: absolute;
     width: 70px;
     height: 70px;
@@ -260,9 +268,10 @@ font-weight: 400;
     color: #ffffff;
     text-align: center;
     background-color: #5e42b0;
+	content: "0" counter(list);
 }
 
-.to-do-title::after {
+.to_do_title::after {
     content: "";
     position: absolute;
     top: -50px;
