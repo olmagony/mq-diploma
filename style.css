@@ -85,6 +85,17 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
 	height: 35px;
 }
 
+@media (max-width: 960px) and (min-width: 641px){
+	.link_form{	 
+    display: flex;
+	width: 320px;
+    box-sizing: border-box;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    justify-content: space-between;
+	}
+  }
+
 .logo{
 	height: 25px;
     width: 24px;
@@ -103,9 +114,18 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
 	height: 35px;
 }
 
+@media (max-width: 960px) and (min-width: 641px){
+ .apple_link, .google_link{
+	 display: flex;
+	 width: 600px;
+	height: 75px;
+    border-radius: 38px;
+   
+	}
+}
+
 .apple_link_form, .google_link_form{
    display: flex;
-   width: 110px;
    margin-left: auto;
    margin-right: auto;
    align-items: center;
@@ -253,6 +273,7 @@ font-weight: 400;
 
 .to_do_img{
 	width: 100%;
+	min-height: 350px;
 }
 
 .to_do_content {
