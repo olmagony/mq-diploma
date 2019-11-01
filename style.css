@@ -20,15 +20,15 @@ margin: 0;
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   }
 
 .header{
-background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/master/sources/img/football_767.jpg");
-}
-
-.header{
-  padding-bottom: 90px;
+  background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/master/sources/img/football_767.jpg");
+    background-color: #0a0e34;
+    background-repeat: no-repeat;
+    padding-top: 33px;
+    padding-bottom: 84px;
 }
 
 .header::after, .footer::after {
@@ -41,7 +41,6 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
   right: 0;
   bottom: 0;
 }
-
 
 .header_box, .footer_box {
   position: relative;
@@ -57,148 +56,38 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
 }
 
 .surface_logo_text{
-	padding-top: 33px;
-	padding-bottom: 135px;
-	width: 136px;
-	fill: #ffffff;
-}
-
-@media (max-width: 960px) and (min-width: 641px){
-  .surface_logo_text{
-	width: 205px;
-  }
-}
-
-@media (min-width: 961px){
-  .surface_logo_text{
-    width: 191px;
-  }
-}
-
-  .header_title{
-	width: 100%;
-	margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media (min-width: 961px){
-  .header_title{
-    width: 80%;
-    max-width: 1500px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 0.6%;
-    padding-right: 0.6%;
-  }
+  padding-top: 33px;
+  padding-bottom: 135px;
+  width: 136px;
+  fill: #ffffff;
 }
 
 .header_text, .h1_text {
-	display: block;
-	color: #ffffff;
-	font-family: 'OpenSans-Bold', sans-serif;
-	text-transform: uppercase;
-	font-size: 28px;
-}
-
-@media (max-width: 960px) and (min-width: 641px){
-	.header_text, .h1_text {
-	  font-size: 64px;
-      letter-spacing: 3px;
-	}
-}
-
-@media (max-width: 960px) and (min-width: 641px){
-	.header_text{
-	  max-width: 680px;
-	  margin-left: auto;
-	  margin-right: auto;
-	}
-}
-
-@media (min-width: 961px){
-	.header_text{
-	  padding-left: 170px;
-	}
-}
-
-@media (min-width: 961px){
-	.header_text, .h1_text{
-	  font-size: 4.67vw;
-      line-height: normal;
-	  letter-spacing: 5px;
-	}
+  display: block;
+  color: #ffffff;
+  font-family: 'OpenSans-Bold', sans-serif;
+  text-transform: uppercase;
+  font-size: 28px;
 }
 
 .h1_text{
-	margin-left: 44px;
-	margin-top: 30px;
-	margin-bottom: 88px;
-}
-
-@media (max-width: 960px) and (min-width: 641px){
-	.h1_text{
-	margin-left: 105px;
-	margin-bottom: 310px;
-	}
-}
-
-@media (min-width: 961px){
-  .h1_text {
-    margin-top: 0;
-    margin-left: 26%;
-  }
+  margin-left: 44px;
+  margin-top: 30px;
+  margin-bottom: 88px;
 }
 
 .link_group{
-    margin-left: auto;
-    margin-right: auto;
-	margin-bottom: 15px;
-	width: 280px;
-	height: 35px;
-}
-
-@media (min-width: 961px){
-	.link_group{
-	width: 315px;
-	height: 73px;
-	}
-}
-
-@media (max-width: 960px) and (min-width: 641px){
-	.link_form{	 
-    display: flex;
-	width: 700px;
-    box-sizing: border-box;
-	}
-  }
-
-@media (min-width: 961px){
-	.link_form{	 
-    display: flex;
-	width: 680px;
-    box-sizing: border-box;
-	}
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  width: 280px;
+  height: 35px;
 }
 
 .logo{
-	height: 25px;
-    width: 24px;
-	fill: #ffffff;
-}
-
-@media (min-width: 961px){
-	.logo{
-	height: 50px;
-    width: 42px;	
-	}
-}
-
-@media (max-width: 960px) and (min-width: 641px){
-	.logo{
-	height: 45px;
-    width: 45px;	
-	}
+  height: 25px;
+  width: 24px;
+  fill: #ffffff;
 }
 
 .apple_link, .google_link{
@@ -213,73 +102,25 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
   height: 35px;
 }
 
-	
-@media (max-width: 960px) and (min-width: 641px){
- .apple_link, .google_link{
-	display: flex;
-	width: 310px;
-	height: 75px;
-    border-radius: 38px;
-	}
-}
-
-@media (min-width: 961px){
-	.apple_link, .google_link{
-	  width: 315px;
-	  height: 75px;
-	  border-radius: 38px;
-	}
-}
 .apple_link_form, .google_link_form{
-   display: flex;
-   margin-left: auto;
-   margin-right: auto;
-   align-items: center;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
 }
 
 .link_text_apple, .link_text_google {
-	display: flex;
-	flex-direction: column;
-	font-family: 'OpenSans-Regular';
-	font-size: 8px;
-	font-weight: 400;
-	padding-left: 7px;
-}
-
-
-@media (max-width: 960px) and (min-width: 641px){
-  .link_text_apple, .link_text_google{
-    font-size: 14px;
-    letter-spacing: 1px;
-	padding-left: 25px;
-	}
-}
-
-@media (min-width: 961px){
-  .link_text_apple, .link_text_google{
-	font-size: 14px;
-    letter-spacing: 1px;
-	padding-left: 28px;
-	}
+  display: flex;
+  flex-direction: column;
+  font-family: 'OpenSans-Regular';
+  font-size: 8px;
+  font-weight: 400;
+  padding-left: 7px;
 }
 
 .link_text_bold{
   font-family: 'OpenSans-Bold';
   font-size: 8px;
-}
-
-@media (max-width: 960px) and (min-width: 641px){
-	.link_text_bold{ 
-	  font-size: 14px;
-      letter-spacing: 1px;
-	}
-}
-
-@media (min-width: 961px){
-  .link_text_bold{ 
-	  font-size: 14px;
-      letter-spacing: 1px;
-	}
 }
 
 .post_box{
@@ -289,9 +130,9 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
   margin-right: auto;
 }
 
- .post_athlets{
+.post_athlets, .post_players{
   position: relative;
-  }	
+ }	
 	
 .title_post{
   font-family: 'OpenSans-Bold';
@@ -302,113 +143,34 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
   margin-top: 20px;
   margin-left: 6.25%;
   margin-right: 6.25%;
-  margin-bottom: 20px;
-  
-}
-
-@media (max-width: 960px) and (min-width: 641px){
- .post_athlets .title_post  {
-    font-size: 80px;
-    padding: 85px 5% 19px 38%;
-    margin: 0;}	
-  }
-
-@media (min-width: 961px){
-  .post_athlets .title_post {
-    margin: 0;
-    padding: 115px 10% 33px 48.5%;
-    font-size: 80px;
-  }	
+  margin-bottom: 20px; 
 }
  
 .post_athlets_img{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: -55px;
-}
-
-@media (max-width: 960px) and (min-width: 641px){
-  .post_athlets_img{
-	margin-left: -85px;
-	position: absolute;
-    z-index: 2;
-	}
-}
-
-@media (min-width: 961px){
-  .post_athlets_img{
-	position: absolute;
-    z-index: 2;	
-	top: 15px;
-	right: 50%;
-  }
-}
-
-@media (max-width: 960px) and (min-width: 641px){
-  .post_players .title_post {
-    font-size: 80px;
-    padding: 85px 38% 15px 5%;
-    margin: 0;
-  }
-}
-
-@media (min-width: 961px){
-  .post_players .title_post  {
-    margin: 0;
-    padding: 115px 10% 33px 6.25%;
-    font-size: 80px;
-  }	
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -55px;
 }
 
 .post_player_img{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: -40px;
-}
-
-@media (max-width: 960px) and (min-width: 641px){
-	.post_player_img{
-	  position: absolute;
-	  z-index: 2;
-	  right: 0px;
-	  margin-top: -45px;
-	}
-}
-
-@media (min-width: 961px){
-  .post_player_img{
-	position: absolute;
-    z-index: 2;	
-	top: 1050px;
-	left: 300px;	
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -40px;
 }
 
 .list_post {
-    list-style-type: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-	counter-reset: list;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  counter-reset: list;
 }
 
 .list_item {
-    padding: 59px 6.25% 53px 6.25%;
-	counter-increment: list;
-}
-
-@media (max-width: 960px) and (min-width: 641px){
-  .post_athlets .list_item{
-    padding: 40px 5% 40px 38%;
-  }
-}
-
-@media (min-width: 961px){
-  .post_athlets .list_item {
-    padding: 56px 10% 56px 48.5%;
-  }	
+  padding: 59px 6.25% 53px 6.25%;
+  counter-increment: list;
 }
 
 .list_title{
@@ -421,167 +183,60 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
   position: relative;
   margin-left: 25px;
   margin-bottom: 29px;
-}
-
-@media (max-width: 960px) and (min-width: 641px){
-	.list_title{
-	  font-size: 32px;
-      margin-left: 32px;
-	}
-}
-
-@media (min-width: 961px){
-  .list_title {
-    font-size: 36px;
-    margin-left: 36px;
-    margin-bottom: 33px;
-  }	
-}
-
-
-@media (max-width: 960px) and (min-width: 641px){
-	.list_item:nth-child(3) p{
-	  color: #ffffff;
-	}
+  margin-top: 0px;
 }
 
  .list_title::before {
-	content: "0" counter(list);
-    position: absolute;
-    left: -25px;
-	 top: -3px;
-    font-size: 14px;
-    font-family: 'OpenSans-Bold';
-    color: #000000;
-}
-
-@media (max-width: 960px) and (min-width: 641px){
-	.list_title::before {
-    font-size: 18px;
-    left: -30px;	
-	}
-}
-
-@media (min-width: 961px){
-  .list_title::before {
-    font-size: 18px;
-    top: -6px;
-    left: -35px;
-  }
-}
-
-@media (max-width: 960px) and (min-width: 641px){
-  .post_player .list_item:nth-child(3){
-	color: #8765dd;	
-  }
+  content: "0" counter(list);
+  position: absolute;
+  left: -25px;
+  top: -3px;
+  font-size: 14px;
+  font-family: 'OpenSans-Bold';
+  color: #000000;
 }
 
  .list_title::after {
-    content: "";
-    position: absolute;
-    left: -25px;
-    top: 23px;
-    width: 15px;
-    height: 4px;
-    border-radius: 2px;
-    background-color: #5e42b0;
-}
-
-
-	
-@media (max-width: 960px) and (min-width: 641px){
-	.list_title::after{
-	  top: 30px;
-      left: -30px;
-      width: 22px;
-	}
-}
-
-@media (min-width: 961px){
-  .list_title::after{
-    left: -35px;
-    width: 22px;
-  }
+   content: "";
+   position: absolute;
+   left: -25px;
+   top: 23px;
+   width: 15px;
+   height: 4px;
+   border-radius: 2px;
+   background-color: #5e42b0;
 }
     
 .list_item:first-child{
-	background-color: #fafafa;
+  background-color: #fafafa;
 }
 
-@media (max-width: 960px) and (min-width: 641px) {
-	.list_item:first-child{
-	  background-color: #ffffff;
-    }
-}
-
-@media (min-width: 961px){
-  .list_item:first-child{
-	  background-color: #ffffff;
-    }
-}
 .list_item:nth-child(2){
-	background-color: #f5f4f9;
+  background-color: #f5f4f9;
 }
 
 .list_item:nth-child(3){
-	background-color: #5e42b0;
+  background-color: #5e42b0;
 }
 
 .post_athlets .list_item:nth-child(3) .list_title::after{
-	background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .post_players .list_item:nth-child(3) .list_title::after{
-	background-color: #ffffff;
-}
-
-@media (max-width: 960px) and (min-width: 641px){
-  .post_players .list_item:nth-child(3){
-	background-color: #090c35;
-  }
+  background-color: #ffffff;
 }
 
 .post_players .list_item:nth-child(3) {
-    background-color: #090c35;
+  background-color: #090c35;
 }
 
 .post_players .list-item:nth-child(3) .list-title::before {
-	background-color: #8765dd;
+  background-color: #8765dd;
 }
 
 .post_players .list_item:nth-child(3) .list_title::before {
-	color: #8765dd;
-}
-
-
-@media (min-width: 961px){
-  .post_players .list_item:nth-child(3){
-	background-color: #0a0e34;
-  }
-}
-
-@media (max-width: 960px) and (min-width: 641px){
-  .post_players .list_item:nth-child(3) .list_title::before {
-    color: #5e42b0;
-  }
-}
-
-@media (min-width: 961px){
-  .post_players .list_item:nth-child(3) .list_title::before {
-    color: #5e42b0;
-  }
-}
-
-@media (max-width: 960px) and (min-width: 641px){
-  .list_item:nth-child(3) .list_title::after {
-   background-color: #ffffff;
-  }
-}
-
-@media (min-width: 961px){
-  .list_item:nth-child(3) .list_title::after {
-   background-color: #ffffff;
-  }
+  color: #8765dd;
 }
 
 .list_description, .to_do_description{
@@ -590,383 +245,613 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
   line-height: 18px;
   color: #000000;
   font-family: 'OpenSans-Regular';
-  font-weight: 400;
 }
 
 .post_athlets .list_item:nth-child(3) .list_description {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .post_players .list_item:nth-child(3) .list_description {
-    color: #ffffff;
-}
-
-@media (max-width: 960px) and (min-width: 641px){
-	.list_description{
-	  font-size: 18px;
-      line-height: 28px;
-	}
-}
-
-@media (min-width: 961px){
-  .list_description {
-	width: 717px;
-    font-size: 20px;
-	letter-spacing: 1px;
-    line-height: 28px;
-  }	
-}
-
-@media (min-width: 961px){
-	.list_item:nth-child(3) p{
-		color: #ffffff;
-	}
+  color: #ffffff;
 }
 
 .visually_hidden {
-    width: 1px;
-    height: 1px;
-    clip: rect(1px, 1px, 1px, 1px);
-    position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute;
 }
 
 .list_styles_reset {
-    list-style-type: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-	counter-reset: list;
-}
-
-@media (min-width: 961px){
-  .to_do_item {
-    display: flex;
-    box-sizing: border-box;
-    position: relative;
-  }
-}
-
-@media (min-width: 961px){
-  .to_do_pic {
-    width: 50%;
-  }	
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  counter-reset: list;
 }
 
 .to_do_img{
-	width: 100%;
-	min-height: 350px;
-}
-
-@media (min-width: 961px){
-  .to_do_img {
-    height: 100%;
-    object-fit: cover;
-  }	
+  width: 100%;
+  min-height: 350px;
 }
 
 .to_do_content {
-    padding: 33px 6.25% 80px 6.25%;	
-}
-
-@media (max-width: 960px) and (min-width: 641px){
-  .to_do_content {
-    padding: 90px 4% 100px 4%;
-    }
-}
-
-@media (min-width: 961px){
-  .to_do_content {
-    width: 50%;
-    box-sizing: border-box;
-	padding: 180px 10.5% 240px 124px;
-  }	
-}
-
-@media (min-width: 961px){
-  .to_do_item:nth-child(2) {
-    flex-direction: row-reverse;
-  }
+  padding: 33px 6.25% 80px 6.25%;	
 }
 
 .to_do_title {
-    position: relative;
-	font-family: 'OpenSans-Bold';
-    font-size: 28px;
-    letter-spacing: 1px;
-    line-height: 34px;
-    color: #e7e7e7;
-	text-transform: uppercase;
-	font-weight: 700;
-    margin-bottom: 23px;
-	counter-increment: list;
-}
-
-@media (max-width: 960px) and (min-width: 641px){
-	.to_do_title {
-    font-size: 80px;
-	margin-top: 0px;
-	margin-bottom: 40px; 
-    }
-}
-
-@media (min-width: 961px){
-  .to_do_title {
-    position: static;
-	font-size: 80px;
-    line-height: 60px;
-	margin-bottom: 115px;
-  }	
+  position: relative;
+  font-family: 'OpenSans-Bold';
+  font-size: 28px;
+  letter-spacing: 1px;
+  line-height: 34px;
+  color: #e7e7e7;
+  text-transform: uppercase;
+  margin-bottom: 23px;
+  counter-increment: list;
 }
 
 .to_do_title::before {
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    top: -95px;
-    font-size: 14px;
-    line-height: 70px;
-    color: #ffffff;
-    text-align: center;
-    background-color: #5e42b0;
-	content: "0" counter(list);
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: -95px;
+  font-size: 14px;
+  line-height: 70px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #5e42b0;
+  content: "0" counter(list);
+}
+
+.to_do_title::after {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: 27px;
+  width: 17px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #8f7bc8;
+}
+
+.footer{
+background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/master/sources/img/game_767.jpg");	
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  margin-bottom: 57px;
+}
+
+.icon_form {
+  width: 72px;
+  height: 72px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #5e42b0;
+  border-radius: 15px;
+  background-image: linear-gradient(0deg, #50329c 0%, #5e3db3 51%, #7751db 100%);
+}
+
+.logo_artwork{
+  display: block;
+  height: 50px;
+  width: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 11px;
+  fill: #ffffff;
+}
+
+.footer_title{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.footer_texts{
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  font-family: 'OpenSans-Bold', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 32px;
+  letter-spacing: 1.3px;
+}
+
+.footer_text{
+  font-family: 'OpenSans-Regular';
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #9b8ec1;
+  padding-bottom: 78px;
+}
+
+.surface_logo_text_footer{
+  padding-top: 68px;
+  padding-bottom: 10px;
+  width: 136px;
+  fill: #ffffff;
 }
 
 @media (max-width: 960px) and (min-width: 641px){
-  .needs_to_do .to_do_item .to_do_content .to_do_title::before {
+  
+  .header {
+    background-image:  url("https://github.com/olmagony/mq-diploma/blob/master/sources/img/football_1280.jpg?raw=true");	
+    padding-top: 38px;
+	padding-bottom: 91px;
+  }
+	   
+  .surface_logo_text{
+    width: 205px;
+  }
+	
+  .header_text{
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .header_text, .h1_text{
+    font-size: 64px;
+    letter-spacing: 3px;
+  }
+	
+  .h1_text{
+    margin-left: 105px;
+    margin-bottom: 310px;
+  }
+	
+  .link_form{	 
+    display: flex;
+    width: 700px;
+    box-sizing: border-box;
+  }
+	
+  .logo{
+    height: 45px;
+    width: 45px;	
+  }
+	
+  .apple_link, .google_link{
+    display: flex;
+    width: 315px;
+    height: 75px;
+    border-radius: 38px;
+  }
+	
+  .link_text_apple, .link_text_google{
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding-left: 25px;
+  }
+	
+  .link_text_bold{ 
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+	
+  .post_athlets .title_post{
+    font-size: 80px;
+    padding: 85px 5% 19px 38%;
+    margin: 0;
+	}	
+
+  .post_athlets_img{
+    position: absolute;
+    z-index: 2;
+    top: 60px;
+    left: -80px;
+	right: 50%;
+  }
+	
+  .post_athlets .list_item{
+    padding: 40px 5% 40px 38%;
+  }
+
+  .post_players .title_post{
+    font-size: 80px;
+    padding: 40px 38% 15px 5%;
+    margin: 0;
+  }
+	
+  .post_player_img{
+    position: absolute;
+    z-index: 2;
+    right: 0px;
+    margin-top: -55px;
+  }
+	
+  .post_players .list_item {
+    padding: 40px 38% 40px 4%;
+  }
+
+  .list_title{
+    font-size: 32px;
+    margin-left: 32px;
+  }
+	
+  p{
+    margin: 0;
+  }
+
+  .list_item:nth-child(3) p{
+    color: #ffffff;
+  }
+
+  .list_title::before{
+    font-size: 18px;
+    left: -30px;	
+  }
+
+  .post_player .list_item:nth-child(3){
+    color: #8765dd;	
+  }
+
+  .list_title::after{
+    top: 30px;
+    left: -30px;
+    width: 22px;
+  }
+
+  .list_item:first-child{
+    background-color: #ffffff;
+  }
+
+  .post_players .list_item:nth-child(3){
+    background-color: #090c35;
+  }
+	
+  .post_players .list_item:nth-child(3) .list_title::before{
+    color: #5e42b0;
+  }
+
+  .list_item:nth-child(3) .list_title::after{
+    background-color: #ffffff;
+  }
+
+  .list_description{
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .to_do_content{
+    padding: 90px 4% 100px 4%;
+  }
+
+  .to_do_title{
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 40px; 
+  }
+
+  .needs_to_do .to_do_item .to_do_content .to_do_title::before{
     width: 117px;
     height: 117px;
     font-size: 24px;
     line-height: 117px;
     top: -185px;
   }
-}
-@media (min-width: 961px){
-	.needs_to_do .to_do_item .to_do_content .to_do_title::before{
-	  width: 168px;
-      height: 155px;
-      font-size: 24px;
-      line-height: 155px;
-      top: 231px;
-      left: calc(50% - 84px);
-	}
-}
 
-@media (max-width: 960px) and (min-width: 641px){
-  .to_do_item .to_do_content .to_do_title::after {
+  .to_do_item .to_do_content .to_do_title::after{
     top: -110px;
     left: 45px;
     width: 28px;
   }	
-}
-
-.to_do_title::after {
-    content: "";
-    position: absolute;
-    top: -50px;
-    left: 27px;
-    width: 17px;
-    height: 4px;
-    border-radius: 2px;
-    background-color: #8f7bc8;
-}
-
-@media (max-width: 960px) and (min-width: 641px){
-	.to_do_title::after {
-	  top: -110px;
-      left: 45px;
-      width: 28px;
-	}
-}
-
-@media (min-width: 961px){
-  .to_do_item .to_do_content .to_do_title::after {
-    top: 326px;
-    left: calc(50% - 15px);
-    width: 30px;
-  }	
-}
-
-
-@media (max-width: 960px) and (min-width: 641px){
-  .to_do_description {
-    font-size: 24px;
-	letter-spacing: 1px;
-    line-height: 28px;
+	
+  .to_do_title::after{
+    top: -110px;
+    left: 45px;
+    width: 28px;
   }
-}
 
-@media (min-width: 961px){
-  .to_do_description {
+  .to_do_description{
     font-size: 24px;
     letter-spacing: 1px;
     line-height: 28px;
-  }	
-}
+  }
 
-
-
-.footer{
-background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/master/sources/img/game_767.jpg");	
-}
-
-@media (min-width: 961px){
-  .footer_box {
+  .footer_box{
     width: 79.74%;
     max-width: 1531px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 0.6%;
     padding-right: 0.6%;
-  }	
-}
+  }
 
+  .icon{
+    display: flex;
+    flex-direction: column;
+  }
 
-.icon {
-	display: flex;
-	flex-direction: column;
-	padding-top: 100px;
-	margin-bottom: 57px;
+  .icon_form{
+    width: 135px;
+    height: 138px;
+  }
+ 
+  .logo_artwork{
+    height: 88px;
+    width: 103px;
+    padding-top: 25px;
+  }
+	
+  .footer{
+    background-image: url("https://github.com/olmagony/mq-diploma/blob/master/sources/img/game_1280.jpg?raw=true");	
 }
+	
+  .footer_title {
+    margin-top: 82px;
+    margin-bottom: 285px;
+  }
+	
+  .footer_texts{
+    font-size: 80px;
+    line-height: 60px;
+    letter-spacing: 4px;
+   }
+	
+  .footer_text{
+    font-size: 36px;
+    line-height: 60px;
+    letter-spacing: 1px;
+    margin-top: 27px;
+  } 
 
-@media (max-width: 960px) and (min-width: 641px){
-  .icon {
-	display: flex;
-	flex-direction: column;
-   }	
-}
+  .surface_logo_text_footer{
+    width: 205px;
+    padding-bottom: 23px;
+  }
 
 @media (min-width: 961px){
+  
+  .header{
+    background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/master/sources/img/football_1920.jpg");
+	padding-top: 44px;
+    padding-bottom: 110px;
+  }
+	
+  .surface_logo_text{
+	width: 191px;
+    margin-bottom: 293px
+  }
+	
+  .header_box{
+    width: 80%;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.6%;
+    padding-right: 0.6%;
+	padding-bottom: 222px;
+  }
+
+  .header_title{
+	width: 100%;
+	margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header_text{
+	padding-left: 170px;
+  }
+	
+  .header_text, .h1_text{
+    font-size: 4.67vw;
+    line-height: normal;
+	letter-spacing: 5px;
+  }
+	
+  .h1_text {
+    margin-top: 0;
+    margin-left: 26%;
+  }
+	
+  .link_group{
+    width: 315px;
+	height: 73px;
+  }
+	
+  .link_form{	 
+    display: flex;
+	width: 680px;
+    box-sizing: border-box;
+  }
+	
+  .logo{
+    height: 50px;
+    width: 42px;	
+  }
+	
+  .apple_link, .google_link{
+    width: 315px;
+	height: 75px;
+	border-radius: 38px;
+  }
+	
+  .link_text_apple, .link_text_google{
+    font-size: 14px;
+    letter-spacing: 1px;
+	padding-left: 28px;
+  }
+	
+  .link_text_bold{ 
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+	
+  .post_athlets, .title_post{
+    margin: 0;
+    padding: 115px 10% 33px 48.5%;
+    font-size: 80px;
+  }	
+	
+  .post_athlets_img{
+    position: absolute;
+    z-index: 2;	
+	top: 15px;
+	right: 50%
+  }
+	
+  .post_players, .title_post{
+    margin: 0;
+    padding: 115px 10% 33px 6.25%;
+    font-size: 80px;
+  }	
+	
+  .post_player_img{
+	position: absolute;
+    z-index: 2;	
+	top: 1050px;
+	left: 300px;	
+  }
+	
+  .post_athlets, .list_item{
+    padding: 56px 10% 56px 48.5%;
+  }
+	
+  .list_title{
+    font-size: 36px;
+    margin-left: 36px;
+    margin-bottom: 33px;
+  }	
+	
+  .list_title::before{
+    font-size: 18px;
+    top: -6px;
+    left: -35px;
+  }
+
+  .list_title::after{
+    left: -35px;
+    width: 22px;
+  }
+
+  .list_item:first-child{
+    background-color: #ffffff;
+  }
+
+  .post_players .list_item:nth-child(3){
+	background-color: #0a0e34;
+  }
+	
+  .post_players .list_item:nth-child(3) .list_title::before{
+    color: #5e42b0;
+  }
+
+  .list_item:nth-child(3) .list_title::after{
+   background-color: #ffffff;
+  }
+
+  .list_description{
+    font-size: 20px;
+	letter-spacing: 1px;
+    line-height: 28px;
+  }	
+
+  .list_item:nth-child(3) p{
+    color: #ffffff;
+  }
+
+  .to_do_item{
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  .to_do_pic{
+    width: 50%;
+  }	
+
+  .to_do_img{
+    height: 100%;
+    object-fit: cover;
+  }	
+
+  .to_do_content{
+    width: 50%;
+    box-sizing: border-box;
+	padding: 180px 10.5% 240px 124px;
+  }	
+
+  .to_do_item:nth-child(2){
+    flex-direction: row-reverse;
+  }
+	
+  .to_do_title{
+    position: static;
+	font-size: 80px;
+    line-height: 60px;
+	margin-bottom: 115px;
+  }
+
+  .needs_to_do .to_do_item .to_do_content .to_do_title::before{
+    width: 168px;
+    height: 155px;
+    font-size: 24px;
+    line-height: 155px;
+    top: 231px;
+    left: calc(50% - 84px);
+  }
+
+  .to_do_item .to_do_content .to_do_title::after{
+    top: 326px;
+    left: calc(50% - 15px);
+    width: 30px;
+  }	
+  .to_do_description{
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 28px;
+  }	
+
   .icon{
 	display: flex;
 	flex-direction: row;	
   }
-}
 
-.icon_form {
-	width: 72px;
-	height: 72px;
-	margin-right: auto;
-	margin-left: auto;
-	background-color: #5e42b0;
-	border-radius: 15px;
-	background-image: linear-gradient(0deg, #50329c 0%, #5e3db3 51%, #7751db 100%);
-}
-
-@media (max-width: 960px) and (min-width: 641px){
-  .icon_form{
-	width: 135px;
-	height: 135px;
-  }
-}
-
-@media (min-width: 961px){
   .icon_form{
     width: 6.87vw;
     height: 7.18vw;
     margin: 0 17.5px 0 auto;
   }	
-}
- 
-.logo_artwork{
-	display: block;
-	height: 50px;
-	width: 60px;
-	margin-right: auto;
-	margin-left: auto;
-	padding-top: 11px;
-	fill: #ffffff;
-}
-
-@media (max-width: 960px) and (min-width: 641px){
+	
   .logo_artwork{
-	height: 88px;
-	width: 103px;
-	padding-top: 25px;
-  }
-}
-
-@media (min-width: 961px){
-  .logo_artwork {
     height: 84px;
 	width: 102px;
 	padding-top: 15px;
-  }	
-}
-	
-  .footer_title{
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-}
-
-.footer_texts{
-	display: flex;
-	flex-direction: column;
-	color: #ffffff;
-	font-family: 'OpenSans-Bold', sans-serif;
-	font-weight: 700;
-	text-transform: uppercase;
-	font-size: 32px;
-    letter-spacing: 1.3px;
-}
-
-@media (max-width: 960px) and (min-width: 641px){
-  .footer_texts{
-    font-size: 80px;
-    line-height: 60px;
-	letter-spacing: 4px;
   }
-}
+	
+  .footer{
+    background-image: url("https://github.com/olmagony/mq-diploma/blob/master/sources/img/game_1920.jpg?raw=true");
+    padding-top: 220px;
+    padding-bottom: 43px;	
+  }
+	
+  .footer_box{
+	  width: 79.74%;
+      max-width: 1531px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 0.6%;
+      padding-right: 0.6%;
+	}
 
-@media (min-width: 961px){
-  .footer_texts {
+  .footer_texts{
     font-size: 4.166vw;
   }	
-}
 
-.footer_text{
-	font-family: 'OpenSans-Regular';
-	font-size: 14px;
-	letter-spacing: 1px;
-    color: #9b8ec1;
-	padding-bottom: 78px;
-}
-
-@media (max-width: 960px) and (min-width: 641px){
-	.footer_text{
-	  font-size: 36px;
-	  line-height: 60px;
-	  padding-bottom: 286px;
-	  letter-spacing: 1px;
-	}
-}
-
-@media (min-width: 961px){
-  .footer_text {
+  .footer_text{
     font-size: 1.56vw;
     text-align: left;
 	line-height: 1;
   }	
-}
 
-.surface_logo_text_footer{
-	padding-top: 68px;
-	padding-bottom: 10px;
-	width: 136px;
-	fill: #ffffff;
-}
-
-@media (max-width: 960px) and (min-width: 641px){
-	.surface_logo_text_footer{
-	  width: 205px;
-	  padding-bottom: 23px;
-	  padding-top: 55px;
-	}
-}
-
-@media (min-width: 961px){
-  .surface_logo_text_footer {
+  .surface_logo_text_footer{
     width: 191px;
   }
 }
-	
