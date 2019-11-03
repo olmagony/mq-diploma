@@ -814,7 +814,8 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
   .icon{
 	display: flex;
 	flex-direction: row;
-    margin-bottom: 150px;	
+    margin-bottom: 150px;
+	padding-top: 0px;
   }
 
   .icon_form{
