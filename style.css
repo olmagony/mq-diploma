@@ -319,10 +319,10 @@ margin: 0;
 background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/master/sources/img/game_767.jpg");	
 }
 
-  .icon {
-    display: flex;
-    flex-direction: column;
-    padding-top: 100px;
+.icon {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
 }
 
 .icon_logo {
@@ -353,7 +353,6 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
   flex-direction: column;
   color: #ffffff;
   font-family: 'OpenSans-Bold', sans-serif;
-  font-weight: 700;
   text-transform: uppercase;
   font-size: 32px;
   letter-spacing: 1.3px;
@@ -379,7 +378,7 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
   .header {
     background-image:  url("https://github.com/olmagony/mq-diploma/blob/master/sources/img/football_1280.jpg?raw=true");	
     padding-top: 38px;
-	padding-bottom: 91px;
+    padding-bottom: 91px;
   }
 	   
   .surface_logo_text{
@@ -435,14 +434,14 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
     font-size: 80px;
     padding: 85px 5% 19px 38%;
     margin: 0;
-	}	
+  }	
 
   .post_athlets_img{
     position: absolute;
     z-index: 2;
     top: 60px;
     left: -80px;
-	right: 50%;
+    right: 50%;
   }
 	
   .post_athlets .list_item{
@@ -565,7 +564,7 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
   .icon{
     display: flex;
     flex-direction: column;
-	align-items: center;
+    align-items: center;
   }
 
   .icon_form{
@@ -576,7 +575,7 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
   .icon_logo{
     width: 130px;
     height: 135px;
-	}
+  }
 	
   .logo_artwork {
     width: 104px;
@@ -585,12 +584,12 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
   .footer_title {
     margin-top: 82px;
     margin-bottom: 285px;
-	text-align: center;
+    text-align: center;
   }
 	
   .footer_texts{
     font-size: 10.42vw;
-	letter-spacing: 4px;
+    letter-spacing: 4px;
    }
 	
   .footer_text{
