@@ -556,8 +556,6 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
   }
 
   .footer_box{
-    width: 79.74%;
-    max-width: 1531px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 0.6%;
@@ -587,20 +585,17 @@ background-image: url("https://raw.githubusercontent.com/olmagony/mq-diploma/mas
   .footer_title {
     margin-top: 82px;
     margin-bottom: 285px;
+	text-align: center;
   }
 	
   .footer_texts{
-    font-size: 80px;
-    line-height: 60px;
-    letter-spacing: 4px;
-	text-align: center;
+    font-size: 10.42vw;
+	letter-spacing: 4px;
    }
 	
   .footer_text{
-    font-size: 36px;
-    line-height: 60px;
-    text-align: center;
-    margin-top: 27px;
+    font-size: 4.69vw;
+    margin-top: 27px; 
   } 
 
   .surface_logo_text_footer{
